@@ -1,24 +1,35 @@
 *
 {
-    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
     padding: 0px;
-    margin: 0px;
-    list-style: none;
+    margin: 0px
 }
-nav 
+nav
 {
-    height: 80px;
     background-color: #1f2937;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30%;
 }
-.p
+.header-logo
 {
-    margin-top: 26px;
     color: white;
     font-size: 24px;
-    font-weight: bold;
+    line-height: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
-nav a 
+.header-links 
 {
     float: right;
-
+    line-height: 80px;
+}
+.header-links a
+{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    margin-right: 30px;
 }
