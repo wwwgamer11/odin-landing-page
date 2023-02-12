@@ -7,7 +7,7 @@
 
 ## skills demonstated
 
-- html 
+- html
 - css
 - flexbox
 

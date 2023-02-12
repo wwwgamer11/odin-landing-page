@@ -1,17 +1,22 @@
 *
 {
+    
     font-family: 'Roboto', sans-serif;
     padding: 0px;
     margin: 0px
 }
 nav
 {
-    background-color: #1f2937;
     height: 80px;
-    display: flex;
+    display: flex;  
     justify-content: center;
     gap: 30%;
 }
+header
+{
+    background-color: #1f2937;  
+}
+
 .header-logo
 {
     color: white;
@@ -22,7 +27,6 @@ nav
 }
 .header-links 
 {
-    float: right;
     line-height: 80px;
 }
 .header-links a
@@ -33,3 +37,38 @@ nav
     margin-left: 30px;
     margin-right: 30px;
 }
+#hero
+{
+    display: flex;
+    justify-content: center;
+    gap: 25%;
+
+}
+.hero-text
+{
+    color: white;
+}
+.hero-text h1
+{
+    text-align: justify;
+}.hero-text p
+{
+
+}
+.hero-text button
+{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.hero-buton
+{
+    display: flex;
+    justify-content: center;
+}
+#hero img
+{
+    width: 500px;
+    height: 300px;
+}
+
